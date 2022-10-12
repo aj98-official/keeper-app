@@ -8,7 +8,7 @@ html {
 }
 body {
   background: #eee;
-  background-image: url(http://www.transparenttextures.com/patterns/black-twill.png);
+  /* background-image: url(http://www.transparenttextures.com/patterns/black-twill.png); */
   padding: 0 16px;
 }
 
@@ -19,14 +19,14 @@ header {
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 }
 
-header h1 {
+header div {
   color: #fff;
   font-family: "McLaren", cursive;
   font-weight: 200;
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   text-align: center;
   bottom: 0;
   width: 100%;
@@ -100,4 +100,17 @@ form.create-note button {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   outline: none;
+}
+
+.header_icon{
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  right: 10px;
+}
+
+.header_name{
+  font-size: small;
+  position: absolute;
+  right: 30px;
 }
